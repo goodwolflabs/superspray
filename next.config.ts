@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -9,10 +9,10 @@ const nextConfig: NextConfig = {
         hostname: 'res.cloudinary.com',
         port: '',
         pathname: '/**',
-        search: '',
-      },
-    ],
-  },
-};
+        search: ''
+      }
+    ]
+  }
+}
 
-export default nextConfig;
+export default nextConfig
